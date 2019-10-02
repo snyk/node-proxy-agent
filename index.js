@@ -15,7 +15,7 @@ var http = require('http');
 var https = require('https');
 var PacProxyAgent = require('pac-proxy-agent');
 var HttpProxyAgent = require('http-proxy-agent');
-var HttpsProxyAgent = require('https-proxy-agent');
+var HttpsProxyAgent = require('https-proxy-agent-snyk-fork');
 var SocksProxyAgent = require('socks-proxy-agent');
 
 /**
