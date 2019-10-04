@@ -32,9 +32,7 @@
     "agent-base": "^4.2.0",
     "debug": "^3.1.0",
     "http-proxy-agent": "^2.1.0",
-    "https-proxy-agent-snyk-fork": "git://github.com/snyk/node-https-proxy-agent#fix/https-agent-vuln",
     "lru-cache": "^4.1.2",
-    "pac-proxy-agent": "git://github.com/snyk/node-pac-proxy-agent.git#fix/https-proxy-agent-vuln",
     "proxy-from-env": "^1.0.0",
     "socks-proxy-agent": "^4.0.1"
   },
@@ -44,5 +42,9 @@
     "proxy": "0.2.4",
     "socksv5": "0.0.6",
     "stream-to-buffer": "0.1.0"
-  }
+  },
+  "bundleDependencies": [
+    "https-proxy-agent-snyk-fork",
+    "pac-proxy-agent"
+  ]
 }
